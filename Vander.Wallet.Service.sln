@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vander.Wallet.Service.WebApi", "src\Vander.Wallet.Service.WebApi\Vander.Wallet.Service.WebApi.csproj", "{10059564-39CD-4AA1-8C18-D675092310DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{892D5EF1-B497-4305-9583-EEF93C9A467C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{892D5EF1-B497-4305-9583-EEF93C9A467C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{892D5EF1-B497-4305-9583-EEF93C9A467C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{892D5EF1-B497-4305-9583-EEF93C9A467C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10059564-39CD-4AA1-8C18-D675092310DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10059564-39CD-4AA1-8C18-D675092310DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10059564-39CD-4AA1-8C18-D675092310DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10059564-39CD-4AA1-8C18-D675092310DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "QDwETIg1xUc=",
+  "success": true,
+  "projectFilePath": "C:\\GIT\\wallet-service\\src\\Vander.Wallet.Service.WebApi\\Vander.Wallet.Service.WebApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tecva\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.0\\microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512",
+    "C:\\Users\\tecva\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}

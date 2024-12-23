@@ -1,0 +1,6 @@
+@Vander.Wallet.Service.WebApi_HostAddress = http://localhost:5279
+
+GET {{Vander.Wallet.Service.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

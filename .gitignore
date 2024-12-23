@@ -1,0 +1,121 @@
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]ppPackages/
+*.build.csproj
+
+# Visual Studio
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+
+# Rider
+.idea/
+*.sln.iml
+
+# DotNet
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.runtimeconfig.dev.json
+*.deps.json
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.log
+*.cache
+*.csproj.user
+
+# NuGet
+*.nupkg
+packages/
+.nuget/
+*.snupkg
+
+# Entity Framework
+Migrations/
+
+# ASP.NET
+*.db
+*.bak
+*.ldf
+*.mdf
+
+# Azure
+.localhistory
+*.azureactivitylog
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Coverage
+*.coverage
+*.coveragexml
+*.testsettings
+*.vsmdi
+*.trx
+TestResults/
+*.opencover.xml
+
+# StyleCop
+*.stylecop
+*.cache
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# JetBrains
+.idea/
+*.sln.iml
+
+# Node.js
+node_modules/
+
+# NPM
+package-lock.json
+
+# Yarn
+yarn.lock
+
+# Web
+*.css.map
+*.js.map
+
+# Temp files
+*.tmp
+*.temp
+
+# Backup files
+*.bak
+
+# Generated files
+*.g.cs
+*.g.i.cs
+
+# Secrets
+secrets.json
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+
+# Others
+bin/
+obj/
+*.tmp
+*.temp

@@ -1,1 +1,8 @@
 # WalletService
+
+
+CreateWalletEvent
+RetrieveBalanceEvent
+DepositFundsEvent
+WithdrawFundsEvent
+TransferFundsEvent
