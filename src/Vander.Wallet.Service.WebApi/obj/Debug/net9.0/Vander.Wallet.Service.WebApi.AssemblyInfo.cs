@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Vander.Wallet.Service.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b88d729f45bf14979837a50ed11658dfdd73e820")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+81c50766de7c7530f051f9a5437bb495d02d12bf")]
 [assembly: System.Reflection.AssemblyProductAttribute("Vander.Wallet.Service.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Vander.Wallet.Service.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
