@@ -2,9 +2,9 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vander.Wallet.Service.WebApi", "src\Vander.Wallet.Service.WebApi\Vander.Wallet.Service.WebApi.csproj", "{10059564-39CD-4AA1-8C18-D675092310DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vander.Wallet.Service.CommandStack", "src\Vander.Wallet.Service.CommandStack\Vander.Wallet.Service.CommandStack.csproj", "{41B68C48-9005-4341-8659-7973ACBCF778}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vander.Wallet.Service.Application.CommandStack", "src\Vander.Wallet.Service.Application.CommandStack\Vander.Wallet.Service.Application.CommandStack.csproj", "{41B68C48-9005-4341-8659-7973ACBCF778}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vander.Wallet.Service.QueryStack", "src\Vander.Wallet.Service.QueryStack\Vander.Wallet.Service.QueryStack.csproj", "{E2F8BFD3-5FB0-49BE-ABFF-52FDC202AFBA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vander.Wallet.Service.Application.QueryStack", "src\Vander.Wallet.Service.Application.QueryStack\Vander.Wallet.Service.Application.QueryStack.csproj", "{E2F8BFD3-5FB0-49BE-ABFF-52FDC202AFBA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vander.Wallet.Service.Domain", "src\Vander.Wallet.Service.Domain\Vander.Wallet.Service.Domain.csproj", "{6F9E35A0-35F7-489A-8619-02F233A44585}"
 EndProject

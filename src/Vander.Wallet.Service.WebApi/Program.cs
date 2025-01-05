@@ -1,41 +1,33 @@
+using MediatR;
+using Vander.Wallet.Service.Application.QueryStack.Balance.Query;
+using Vander.Wallet.Service.CommandStack.Account.Command;
+using Vander.Wallet.Service.CommandStack.Deposit.Command;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
+// Configura o MediatR
+builder.Services.AddMediatR(typeof(Program));
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+// Endpoints usando Minimal APIs
+app.MapPost("/accounts", async (IMediator mediator, CreateAccountCommand command) =>
 {
-    app.MapOpenApi();
-}
+    var result = await mediator.Send(command);
+    return Results.Ok(result);
+});
 
-app.UseHttpsRedirection();
-
-var summaries = new[]
+app.MapPost("/accounts/{id}/deposit", async (IMediator mediator, DepositCommand command, Guid id) =>
 {
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
+    command.AccountId = id;
+    var result = await mediator.Send(command);
+    return Results.Ok(result);
+});
 
-app.MapGet("/weatherforecast", () =>
+app.MapGet("/accounts/{id}/balance", async (IMediator mediator, Guid id) =>
 {
-    var forecast =  Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast");
+    var result = await mediator.Send(new GetBalanceQuery { AccountId = id });
+    return result is not null ? Results.Ok(result) : Results.NotFound();
+});
 
 app.Run();
-
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}
