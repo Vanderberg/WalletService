@@ -1,16 +1,17 @@
 using MediatR;
+using Vander.Wallet.Service.Application.QueryStack;
 using Vander.Wallet.Service.Application.QueryStack.Balance.Query;
+using Vander.Wallet.Service.CommandStack;
 using Vander.Wallet.Service.CommandStack.Account.Command;
 using Vander.Wallet.Service.CommandStack.Deposit.Command;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Configura o MediatR
-builder.Services.AddMediatR(typeof(Program));
+builder.Services.AddCommandStackServiceExtensions();
+builder.Services.AddQueryStackServiceExtensions();
 
 var app = builder.Build();
 
-// Endpoints usando Minimal APIs
 app.MapPost("/accounts", async (IMediator mediator, CreateAccountCommand command) =>
 {
     var result = await mediator.Send(command);

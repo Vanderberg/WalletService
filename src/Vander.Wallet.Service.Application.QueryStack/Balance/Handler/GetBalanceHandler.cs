@@ -13,5 +13,6 @@ public class GetBalanceHandler : IRequestHandler<GetBalanceQuery, decimal?>
             return Task.FromResult<decimal?>(account.Balance);
         }
         return Task.FromResult<decimal?>(null);
+        return null;
     }
 }
