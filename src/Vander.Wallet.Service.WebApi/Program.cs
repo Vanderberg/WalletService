@@ -4,11 +4,13 @@ using Vander.Wallet.Service.Application.QueryStack.RetrieveBalance.Query;
 using Vander.Wallet.Service.CommandStack;
 using Vander.Wallet.Service.CommandStack.DepositFund.Command;
 using Vander.Wallet.Service.CommandStack.Wallet.Command;
+using Vander.Wallet.Service.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddCommandStackServiceExtensions();
 builder.Services.AddQueryStackServiceExtensions();
+builder.Services.AddInfrastructure(builder.Configuration);
 
 var app = builder.Build();
 

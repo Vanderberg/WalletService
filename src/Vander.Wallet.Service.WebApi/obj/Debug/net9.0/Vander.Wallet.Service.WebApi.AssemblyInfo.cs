@@ -13,10 +13,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Vander.Wallet.Service.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+065411ddd5558b4ec8f5702e66596defcc62cfcf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f67a5a4f13888e1e1b3288c6d558a9b20f754e82")]
 [assembly: System.Reflection.AssemblyProductAttribute("Vander.Wallet.Service.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Vander.Wallet.Service.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Resources.NeutralResourcesLanguageAttribute("pt-BR")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
 

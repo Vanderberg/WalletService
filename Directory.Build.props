@@ -1,0 +1,16 @@
+<Project>
+    <PropertyGroup Label="Сommon properties">
+        <TargetFramework>net8.0</TargetFramework>
+        <LangVersion>latest</LangVersion>
+        <NeutralLanguage>pt-BR</NeutralLanguage>
+        <ImplicitUsings>disable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+    </PropertyGroup>
+
+    <PropertyGroup Label="General Packages">
+        <EntityFrameworkCore>9.0.0</EntityFrameworkCore>
+        <EntityFrameworkCoreInMemory>9.0.0</EntityFrameworkCoreInMemory>
+        <EntityFrameworkCorePostgreSQL>9.0.2</EntityFrameworkCorePostgreSQL>
+        <MediatR>12.4.1</MediatR>
+    </PropertyGroup>    
+</Project>
